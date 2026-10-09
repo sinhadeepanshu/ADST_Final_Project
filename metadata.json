@@ -1,0 +1,25 @@
+{
+  "features": [
+    "Type",
+    "Air temperature [K]",
+    "Process temperature [K]",
+    "Rotational speed [rpm]",
+    "Torque [Nm]",
+    "Tool wear [min]"
+  ],
+  "numeric_features": [
+    "Air temperature [K]",
+    "Process temperature [K]",
+    "Rotational speed [rpm]",
+    "Torque [Nm]",
+    "Tool wear [min]"
+  ],
+  "categorical_features": [
+    "Type"
+  ],
+  "target": "Machine failure",
+  "best_model": "Random Forest",
+  "training_rows": 10000,
+  "failure_rate": 0.0339,
+  "note": "RUL and true 24/48/72-hour forecasting are not directly supported by this static dataset; the app labels these as future-scope/estimated risk rather than true time-to-failure."
+}
